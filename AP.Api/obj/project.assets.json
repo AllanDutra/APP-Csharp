@@ -1593,6 +1593,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "AP.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AP.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AP.Core.dll": {}
+        }
+      },
+      "AP.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AP.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
+        },
+        "compile": {
+          "bin/placeholder/AP.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AP.Data.dll": {}
+        }
       }
     }
   },
@@ -5968,10 +5994,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "AP.Core/1.0.0": {
+      "type": "project",
+      "path": "../AP.Core/AP.Core.csproj",
+      "msbuildProject": "../AP.Core/AP.Core.csproj"
+    },
+    "AP.Data/1.0.0": {
+      "type": "project",
+      "path": "../AP.Data/AP.Data.csproj",
+      "msbuildProject": "../AP.Data/AP.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AP.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
@@ -6003,7 +6040,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Data\\AP.Data.csproj": {
+              "projectPath": "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Data\\AP.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
