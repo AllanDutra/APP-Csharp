@@ -1,0 +1,12 @@
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\bin\Debug\net5.0\AP.Core.deps.json
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\bin\Debug\net5.0\AP.Core.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\bin\Debug\net5.0\ref\AP.Core.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\bin\Debug\net5.0\AP.Core.pdb
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\obj\Debug\net5.0\AP.Core.csproj.AssemblyReference.cache
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\obj\Debug\net5.0\AP.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\obj\Debug\net5.0\AP.Core.AssemblyInfoInputs.cache
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\obj\Debug\net5.0\AP.Core.AssemblyInfo.cs
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\obj\Debug\net5.0\AP.Core.csproj.CoreCompileInputs.cache
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\obj\Debug\net5.0\AP.Core.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\obj\Debug\net5.0\ref\AP.Core.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Core\obj\Debug\net5.0\AP.Core.pdb
