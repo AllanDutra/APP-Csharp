@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AP.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,9 +30,10 @@ namespace AP.Api
         {
 
             services.AddControllers();
+            services.AddDbContext<APContext>(options => options.UseSqlServer(Configuration.GetConnectionString("APConnection")));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "AP.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pokédex - Temos que pegar eu sei", Version = "v1" });
             });
         }
 
@@ -41,7 +44,11 @@ namespace AP.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AP.Api v1"));
+                app.UseSwaggerUI(c => 
+                {
+                    c.RoutePrefix = string.Empty;
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pokédex - Temos que pegar eu sei v1");
+                });
             }
 
             app.UseHttpsRedirection();
