@@ -24,5 +24,19 @@ namespace AP.Manager.Implementation
             return await pokemonRepository.GetPokemonAsync(id);
         }
 
+        public async Task<Pokemon> InsertPokemonAsync(Pokemon pokemon)
+        {
+            return await pokemonRepository.InsertPokemonAsync(pokemon);
+        }
+
+        public async Task<Pokemon> UpdatePokemonAsync(Pokemon pokemon)
+        {
+            return await pokemonRepository.UpdatePokemonAsync(pokemon);
+        }
+
+        public async Task DeletePokemonAsync(int id)
+        {
+            await pokemonRepository.DeletePokemonAsync(id);
+        }
     }
 }
