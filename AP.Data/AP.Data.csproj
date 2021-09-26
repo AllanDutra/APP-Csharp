@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AP.Core\AP.Core.csproj" />
+    <ProjectReference Include="..\AP.Manager\AP.Manager.csproj" />
   </ItemGroup>
 
 </Project>

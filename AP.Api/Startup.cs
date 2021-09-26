@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AP.Data.Context;
+using AP.Data.Repository;
+using AP.Manager.Implementation;
+using AP.Manager.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +34,8 @@ namespace AP.Api
 
             services.AddControllers();
             services.AddDbContext<APContext>(options => options.UseSqlServer(Configuration.GetConnectionString("APConnection")));
+            services.AddScoped<IPokemonRepository, PokemonRepository>();
+            services.AddScoped<IPokemonManager, PokemonManager>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pokédex - Temos que pegar eu sei", Version = "v1" });
