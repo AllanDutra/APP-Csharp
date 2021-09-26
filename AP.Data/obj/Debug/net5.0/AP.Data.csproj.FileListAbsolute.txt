@@ -16,3 +16,5 @@ C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Data\obj\Debug\net5.0\AP.Dat
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Data\bin\Debug\net5.0\AP.Data.runtimeconfig.json
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Data\bin\Debug\net5.0\AP.Data.runtimeconfig.dev.json
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Data\obj\Debug\net5.0\AP.Data.genruntimeconfig.cache
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Data\bin\Debug\net5.0\AP.Manager.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Data\bin\Debug\net5.0\AP.Manager.pdb

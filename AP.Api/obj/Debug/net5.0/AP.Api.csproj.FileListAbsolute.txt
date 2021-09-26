@@ -63,3 +63,5 @@ C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Core
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Data.dll
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Data.pdb
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Core.pdb
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Manager.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Manager.pdb

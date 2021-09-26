@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AP.Manager/1.0.0": {
+        "dependencies": {
+          "AP.Core": "1.0.0"
+        },
+        "runtime": {
+          "AP.Manager.dll": {}
+        }
+      },
+      "AP.Core/1.0.0": {
+        "runtime": {
+          "AP.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AP.Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AP.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

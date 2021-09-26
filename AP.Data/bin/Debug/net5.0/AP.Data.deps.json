@@ -9,6 +9,7 @@
       "AP.Data/1.0.0": {
         "dependencies": {
           "AP.Core": "1.0.0",
+          "AP.Manager": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.Design": "5.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
@@ -1074,6 +1075,14 @@
         "runtime": {
           "AP.Core.dll": {}
         }
+      },
+      "AP.Manager/1.0.0": {
+        "dependencies": {
+          "AP.Core": "1.0.0"
+        },
+        "runtime": {
+          "AP.Manager.dll": {}
+        }
       }
     }
   },
@@ -1763,6 +1772,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "AP.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AP.Manager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

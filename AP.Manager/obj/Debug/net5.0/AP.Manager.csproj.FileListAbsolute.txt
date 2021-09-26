@@ -1,0 +1,15 @@
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\bin\Debug\net5.0\AP.Manager.deps.json
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\bin\Debug\net5.0\AP.Manager.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\bin\Debug\net5.0\ref\AP.Manager.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\bin\Debug\net5.0\AP.Manager.pdb
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\bin\Debug\net5.0\AP.Core.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\bin\Debug\net5.0\AP.Core.pdb
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.csproj.AssemblyReference.cache
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.AssemblyInfoInputs.cache
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.AssemblyInfo.cs
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.csproj.CoreCompileInputs.cache
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.csproj.CopyComplete
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\ref\AP.Manager.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.pdb

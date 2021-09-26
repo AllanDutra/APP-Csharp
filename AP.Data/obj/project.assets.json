@@ -1529,6 +1529,19 @@
         "runtime": {
           "bin/placeholder/AP.Core.dll": {}
         }
+      },
+      "AP.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AP.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AP.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AP.Manager.dll": {}
+        }
       }
     }
   },
@@ -5802,11 +5815,17 @@
       "type": "project",
       "path": "../AP.Core/AP.Core.csproj",
       "msbuildProject": "../AP.Core/AP.Core.csproj"
+    },
+    "AP.Manager/1.0.0": {
+      "type": "project",
+      "path": "../AP.Manager/AP.Manager.csproj",
+      "msbuildProject": "../AP.Manager/AP.Manager.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AP.Core >= 1.0.0",
+      "AP.Manager >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.10",
@@ -5841,6 +5860,9 @@
           "projectReferences": {
             "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core\\AP.Core.csproj": {
               "projectPath": "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core\\AP.Core.csproj"
+            },
+            "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Manager\\AP.Manager.csproj": {
+              "projectPath": "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Manager\\AP.Manager.csproj"
             }
           }
         }
