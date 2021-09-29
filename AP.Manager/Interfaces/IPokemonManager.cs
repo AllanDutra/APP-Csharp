@@ -11,7 +11,7 @@ namespace AP.Manager.Interfaces
          Task<IEnumerable<Pokemon>> GetPokemonsAsync();
 
          Task<Pokemon> InsertPokemonAsync(NovoPokemon pokemon);
-         Task<Pokemon> UpdatePokemonAsync(Pokemon pokemon);
+         Task<Pokemon> UpdatePokemonAsync(AlteraPokemon alteraPokemon);
          Task DeletePokemonAsync(int id);
     }
 }

@@ -34,8 +34,9 @@ namespace AP.Manager.Implementation
             return await pokemonRepository.InsertPokemonAsync(pokemon);
         }
 
-        public async Task<Pokemon> UpdatePokemonAsync(Pokemon pokemon)
+        public async Task<Pokemon> UpdatePokemonAsync(AlteraPokemon alteraPokemon)
         {
+            var pokemon = mapper.Map<Pokemon>(alteraPokemon);
             return await pokemonRepository.UpdatePokemonAsync(pokemon);
         }
 
