@@ -37,9 +37,9 @@ namespace AP.Api.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put(Pokemon pokemon)
+        public async Task<IActionResult> Put(AlteraPokemon alteraPokemon)
         {
-            var pokemonAtualizado = await pokemonManager.UpdatePokemonAsync(pokemon);
+            var pokemonAtualizado = await pokemonManager.UpdatePokemonAsync(alteraPokemon);
             if(pokemonAtualizado == null)
             {
                 return NotFound();

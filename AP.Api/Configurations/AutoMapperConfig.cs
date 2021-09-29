@@ -9,7 +9,8 @@ namespace AP.Api.Configurations
         public static void AddAutoMapperConfiguration(this IServiceCollection services)
         {
             services.AddAutoMapper(
-                typeof(NovoPokemonMappingProfile)
+                typeof(NovoPokemonMappingProfile), 
+                typeof(AlteraPokemonMappingProfile)
             );
         }
     }
