@@ -1,20 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using AP.Api.Configurations;
 using AP.Data.Context;
 using AP.Data.Repository;
 using AP.Manager.Implementation;
 using AP.Manager.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace AP.Api
@@ -33,6 +27,7 @@ namespace AP.Api
         {
 
             services.AddControllers();
+            services.AddAutoMapperConfiguration();
             services.AddDbContext<APContext>(options => options.UseSqlServer(Configuration.GetConnectionString("APConnection")));
             services.AddScoped<IPokemonRepository, PokemonRepository>();
             services.AddScoped<IPokemonManager, PokemonManager>();

@@ -13,3 +13,5 @@ C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.dll
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\ref\AP.Manager.dll
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\obj\Debug\net5.0\AP.Manager.pdb
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\bin\Debug\net5.0\AP.Core.Shared.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Manager\bin\Debug\net5.0\AP.Core.Shared.pdb

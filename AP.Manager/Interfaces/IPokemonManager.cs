@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AP.Core.Domain;
+using AP.Core.Shared.ModelViews;
 
 namespace AP.Manager.Interfaces
 {
@@ -9,7 +10,7 @@ namespace AP.Manager.Interfaces
          Task<Pokemon> GetPokemonAsync(int id);
          Task<IEnumerable<Pokemon>> GetPokemonsAsync();
 
-         Task<Pokemon> InsertPokemonAsync(Pokemon pokemon);
+         Task<Pokemon> InsertPokemonAsync(NovoPokemon pokemon);
          Task<Pokemon> UpdatePokemonAsync(Pokemon pokemon);
          Task DeletePokemonAsync(int id);
     }

@@ -1,3 +1,5 @@
+using System;
+
 namespace AP.Core.Domain
 {
     public class Pokemon
@@ -6,6 +8,9 @@ namespace AP.Core.Domain
         public string Tipo { get; set; }
         public string Nome { get; set; }
         public double Poder { get; set; }
+
+        public DateTime? DataCriacao { get; set; }
+        public DateTime? DataAtualizacao { get; set; }
         
     }
 }

@@ -1,17 +1,21 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AP.Core.Domain;
+using AP.Core.Shared.ModelViews;
 using AP.Manager.Interfaces;
+using AutoMapper;
 
 namespace AP.Manager.Implementation
 {
     public class PokemonManager : IPokemonManager
     {
         private readonly IPokemonRepository pokemonRepository;
+        private readonly IMapper mapper;
 
-        public PokemonManager(IPokemonRepository pokemonRepository)
+        public PokemonManager(IPokemonRepository pokemonRepository, IMapper mapper)
         {
             this.pokemonRepository = pokemonRepository;
+            this.mapper = mapper;
         }
 
         public async Task<IEnumerable<Pokemon>> GetPokemonsAsync()
@@ -24,8 +28,9 @@ namespace AP.Manager.Implementation
             return await pokemonRepository.GetPokemonAsync(id);
         }
 
-        public async Task<Pokemon> InsertPokemonAsync(Pokemon pokemon)
+        public async Task<Pokemon> InsertPokemonAsync(NovoPokemon novoPokemon)
         {
+            var pokemon = mapper.Map<Pokemon>(novoPokemon);
             return await pokemonRepository.InsertPokemonAsync(pokemon);
         }
 

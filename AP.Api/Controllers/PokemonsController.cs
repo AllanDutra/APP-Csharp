@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using AP.Core.Domain;
+using AP.Core.Shared.ModelViews;
 using AP.Manager.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,10 +30,10 @@ namespace AP.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Pokemon pokemon)
+        public async Task<IActionResult> Post(NovoPokemon pokemon)
         {
             var pokemonInserido = await pokemonManager.InsertPokemonAsync(pokemon);
-            return CreatedAtAction(nameof(Get), new { id = pokemon.Id }, pokemon); 
+            return CreatedAtAction(nameof(Get), new { id = pokemonInserido.Id }, pokemonInserido); 
         }
 
         [HttpPut]

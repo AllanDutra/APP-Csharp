@@ -4,6 +4,58 @@
     "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Data\\AP.Data.csproj": {}
   },
   "projects": {
+    "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core.Shared\\AP.Core.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core.Shared\\AP.Core.Shared.csproj",
+        "projectName": "AP.Core.Shared",
+        "projectPath": "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core.Shared\\AP.Core.Shared.csproj",
+        "packagesPath": "C:\\Users\\AllanDutra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AllanDutra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core\\AP.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -163,6 +215,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core.Shared\\AP.Core.Shared.csproj": {
+                "projectPath": "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core.Shared\\AP.Core.Shared.csproj"
+              },
               "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core\\AP.Core.csproj": {
                 "projectPath": "C:\\Users\\AllanDutra\\Documents\\Dev\\C#\\AplicacaoC#\\AP.Core\\AP.Core.csproj"
               }
@@ -178,6 +233,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

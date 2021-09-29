@@ -65,3 +65,7 @@ C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Data
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Core.pdb
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Manager.dll
 C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Manager.pdb
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Core.Shared.dll
+C:\Users\AllanDutra\Documents\Dev\C#\AplicacaoC#\AP.Api\bin\Debug\net5.0\AP.Core.Shared.pdb
