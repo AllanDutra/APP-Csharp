@@ -40,13 +40,14 @@ namespace AP.Data.Repository
         // Put
         public async Task<Pokemon> UpdatePokemonAsync(Pokemon pokemon)
         {
-            var pokemonConsultado = await context.Pokemons.FindAsync(pokemon.Id);
+            var pokemonConsultado = await context.Pokemons.FirstOrDefaultAsync(p => p.Id == pokemon.Id);
             
             if(pokemonConsultado == null)
             {
                 return null;
             }
 
+            pokemon.DataCriacao = pokemonConsultado.DataCriacao;
             // atualizando todos os campos com correspondência de atributo
             context.Entry(pokemonConsultado).CurrentValues.SetValues(pokemon);
             await context.SaveChangesAsync();
