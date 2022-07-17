@@ -14,11 +14,11 @@ response:
 [
   {
      "id": int,
-	 "tipo": string,
-	 "nome": string,
-	 "poder": double,
-	 "dataCriacao"?: DateTime,
-	 "dataAtualizacao"?: DateTime
+     "tipo": string,
+     "nome": string,
+     "poder": double,
+     "dataCriacao"?: DateTime,
+     "dataAtualizacao"?: DateTime
   }
 ]
 ```
